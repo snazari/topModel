@@ -1,0 +1,207 @@
+    1  which python
+    2  python -V
+    3  ls
+    4  cd
+    5  ls
+    6  git 
+    7  git clone https://github.com/snazari/topModel.git
+    8  ls -alF
+    9  cd topModel/
+   10  ls
+   11  ls -alF
+   12  git status
+   13  git branch
+   14  git branch V2
+   15  git clone
+   16  git clone https://github.com/snazari/topModel.git V2
+   17  ls
+   18  cd ..
+   19  rm -rf topModel/
+   20  ls -alF
+   21  git git clone <url> --branch <branch> --single-branch [<folder>]
+   22  git clone https://github.com/snazari/topModel.git --branch V2
+   23  ls
+   24  cd topModel/
+   25  ls
+   26  ls -alF
+   27  git status
+   28  ls -alF
+   29  pip3 
+   30  uname -A
+   31  uname -a
+   32  ls /etc
+   33  cat /etc/debian_version 
+   34  uname -r
+   35  lsb_release -a
+   36  dpkg -l openssl
+   37  dpkg -l 
+   38  dpkg -l icu
+   39  rpm
+   40  dpkg
+   41  dpkg -l |more
+   42  dpkg -l | grep icu
+   43  dpkg libicu52
+   44  dpkg
+   45  dpkg --help
+   46  dpkg --help |more
+   47  dpkg -i libicu52
+   48  dpkg -i icu-devtools
+   49  dpkg -l | grep *icu*
+   50  dpkg -l | grep icu
+   51  dpkg -i libicu52:amd64
+   52  dpkg -i libicu52
+   53  dpkg -L
+   54  dpkg -L icu
+   55  dpkg -r libicu52
+   56  dpkg
+   57  apt-cache search icu
+   58  apt-get install icu-devtools libicu-dev libicu52
+   59  apt-get update
+   60  apt-get install icu-devtools libicu-dev libicu52
+   61  apt-get install icu-devtools libicu-dev libicu52
+   62  apt-cache search icu
+   63  apt-get install python3-icu
+   64  apt-get install python-icu
+   65  apt-get install icu-devtools
+   66  curl https://pypi.python.org/packages/bb/ef/3a7fcbba81bfd213e479131ae21445a2ddd14b46d70ef0109640b580bc5d/PyICU-2.0.3.tar.gz
+   67  curl https://pypi.python.org/packages/bb/ef/3a7fcbba81bfd213e479131ae21445a2ddd14b46d70ef0109640b580bc5d/PyICU-2.0.3.tar.gz | tar zxvf -
+   68  ls
+   69  cd PyICU-2.0.3/
+   70  ls
+   71  python setup.py build
+   72  which gcc
+   73  apt-get install gcc
+   74  python setup.py build
+   75  uconv -V
+   76  pip install pyicu=52.1
+   77  apt-cache search pyicu
+   78  apt-info
+   79  apt
+   80  apt-show python-pyicu
+   81  apt show python-pyicu
+   82  apt-cache search pyicu
+   83  apt-get update 
+   84  apt list
+   85  apt-cache search icu
+   86  apt-get install -U icu-devtools
+   87  apt-get install --update icu-devtools
+   88  apt-get install --upgrade icu-devtools
+   89  apt-get install --upgrade icu-devtools libicu
+   90  ls
+   91  ls -alF
+   92  ls
+   93  python setup.py build
+   94  vim setup.py
+   95  ls
+   96  cd ..
+   97  curl http://download.icu-project.org/files/icu4c/58.2/icu4c-58_2-src.tgz
+   98  curl http://download.icu-project.org/files/icu4c/58.2/icu4c-58_2-src.tgz | tar -zxvf -
+   99  wget http://download.icu-project.org/files/icu4c/58.2/icu4c-58_2-src.tgz
+  100  ls
+  101  tar -zxvf icu4c-58_2-src.tgz 
+  102  ls
+  103  cd icu
+  104  ls
+  105  wget http://www.linuxfromscratch.org/patches/blfs/8.0/icu4c-58.2-fix_enumeration-1.patch
+  106  ls
+  107  patch -p1 -i ../icu4c-58.2-fix_enumeration-1.patch
+  108  ls
+  109  cd ..
+  110  mv icu/icu4c-58.2-fix_enumeration-1.patch .
+  111  cd icu
+  112  patch -p1 -i ../icu4c-58.2-fix_enumeration-1.patch
+  113  cd source && ./configure --prefix=/usr && make
+  114  apt-get install g++
+  115  cd source && ./configure --prefix=/usr && make
+  116  cd..
+  117  cd source && ./configure --prefix=/usr && make
+  118  cd..
+  119  cd ..
+  120  cd source && ./configure --prefix=/usr && make
+  121  apt-get install make
+  122  cd ..
+  123  cd source && ./configure --prefix=/usr && make
+  124  cd source && ./configure --prefix=/usr && make VERBOSE=1 all-local
+  125  cd ..
+  126  cd source && ./configure --prefix=/usr && make VERBOSE=1 all-local
+  127  history
+  128  uconv -V
+  129  apt-get install -U uconv
+  130  apt-get update uconv
+  131  apt-get upgrade uconv
+  132  apt-get upgrade icu
+  133  apt-cache search libevdev-1.5.5
+  134  apt-cache search libevdev
+  135  apt show libevdev2
+  136  apt show evdev
+  137  apt-cache search icu4c
+  138  apt-cache search icu
+  139  pip install pyicu
+  140  pip install pycl2
+  141  pip install pycld2
+  142  ls
+  143  cd ..
+  144  ls
+  145  cd ..
+  146  ls
+  147  pip install -r requirements.txt 
+  148  vim requirements.txt 
+  149  apt-get install turbo-vim
+  150  curl https://raw.github.com/krisleech/turbo-vim/master/bootstrap.sh -o - | sh
+  151  ls
+  152  vim
+  153  apt-get install vim
+  154  curl https://raw.github.com/krisleech/turbo-vim/master/bootstrap.sh -o - | sh
+  155  vim
+  156  ls
+  157  vim requirements.txt 
+  158  pip install -r requirements.txt 
+  159  git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+  160  sh ~/.vim_runtime/install_awesome_vimrc.sh
+  161  which python
+  162  cd /
+  163  ls
+  164  cd opt
+  165  ls
+  166  cd conda
+  167  ls
+  168  cd pkgs/
+  169  ls
+  170  cd .
+  171  l
+  172  ls
+  173  cd ..
+  174  ls
+  175  cd lib
+  176  ls
+  177  cd ..
+  178  ls
+  179  find / -name "tree.py" -print
+  180  vim /opt/conda/lib/python3.6/site-packages/pattern3/text/tree.py
+  181  cat /opt/conda/lib/python3.6/site-packages/pattern3/text/tree.py
+  182  cat /opt/conda/lib/python3.6/site-packages/pattern3/text/tree.py |more
+  183  cd
+  184  cd topModel/
+  185  ls
+  186  python download_polyglot.py 
+  187  python demo.py
+  188  ls
+  189  ls
+  190  jupyter notebook
+  191  pip install jupyter
+  192  jupyter notebook
+  193  cd ..
+  194  ls
+  195  pip
+  196  pip list
+  197  pip freeze > reqs.txt
+  198  ls
+  199  git
+  200  ls
+  201  mv reqs.txt topModel/
+  202  cd topModel/
+  203  ls
+  204  git status
+  205  git add reqs.txt
+  206  git status
+  207  history > hist.txt
