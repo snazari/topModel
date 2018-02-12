@@ -11,7 +11,6 @@ from config import config_processing, config_models
 from processing import Processing
 from utils import make_dirs
 
-
 class Model(object):
 
     def __init__(self, model_name):
@@ -183,6 +182,8 @@ class Model(object):
             exit('ERROR: TNSE visualization is only for methods LSI, LDA')
 
     def get_matrix(self, texts):
+        #import pdb
+        #pdb.set_trace()
         vectors = self.transforming(texts)
         matrix = []
         for vector in vectors:

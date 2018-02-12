@@ -1,5 +1,5 @@
 config_saving = {
-    'dir_name': r'C:\Users\user\Documents\project\python_git_user_topic_modelling\data',
+    'dir_name': r'/dataVol/topModel/data',
 }
 
 config_processing = {
@@ -38,6 +38,6 @@ config_models = \
             'K': 15,
             'T': 150,
             'eta': 0.01,
-            'num_topics': 5
+            'num_topics': 75
         }
     }
